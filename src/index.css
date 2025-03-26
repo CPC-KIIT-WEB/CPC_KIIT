@@ -1,0 +1,72 @@
+body {
+  background: black;
+  color: white;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+}
+
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+}
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+}
+
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+}
+
+.poppins-black {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+}
+
+.bruno-ace-regular {
+  font-family: "Bruno Ace", serif;
+  font-weight: 400;
+}
