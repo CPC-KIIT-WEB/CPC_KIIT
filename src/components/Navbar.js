@@ -9,8 +9,8 @@ const Navbar = () => {
       </div>
 
       {/* Menu Items - Hidden on Small Screens */}
-      <ul className="hidden md:flex w-96 justify-between items-center">
-        {["Home", "About Us", "Events", "Domain"].map((item, index) => (
+      <ul className="hidden md:flex gap-x-5 justify-between items-center">
+        {["Home", "About Us", "Events", "Domain", "Time Line"].map((item, index) => (
           <li key={index} className="relative text-lg font-medium active:duration-300 active:translate-y-1 active:translate-x-1">
             <a
               href={`#${item.toLowerCase().replace(" ", "")}`}
