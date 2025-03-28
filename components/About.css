@@ -1,0 +1,45 @@
+.cyber-container {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 15px;
+    font-family: "Tylbor Semi Bold", monospace;
+  }
+  
+  
+  .cyber-image {
+    max-width: 200%;
+    margin: 0 auto; 
+  }
+  
+  .cyber-title {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgb(255, 204, 0);
+  }
+  
+  
+  .cyber-text {
+    font-size: 22px;
+    line-height: 1.6;
+    color: white;
+  }
+  
+  .cyber-divider {
+    height: 5px;
+    background: rgb(0, 89, 255);
+    width: 100%;
+    margin: 20px 0;
+    /* box-shadow: 0 0 10px #0ff; */
+  }
+  
+  @media (max-width: 768px) {
+    .cyber-container {
+      text-align: center;
+    }
+  
+    .cyber-image {
+      margin-bottom: 20px;
+    }
+  }
